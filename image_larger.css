@@ -1,0 +1,47 @@
+body {
+    background-image: url('resized-image-Promo\ \(1\).jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff; /* Text color for the entire page */
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #ffcc00; /* Stylish color for h1 */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Text shadow for h1 */
+  }
+  
+  p {
+    font-size: 1.2em;
+    color: #b3b3b3; /* Stylish color for p */
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .img-zoom-container {
+    position: relative;
+  }
+  
+  .img-zoom-lens {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    /*set the size of the lens:*/
+    width: 60px;
+    height: 40px;
+  }
+  
+  .img-zoom-result {
+    border: 1px solid #d4d4d4;
+    /*set the size of the result div:*/
+    width: 500px;
+    height: 300px;
+  }
+  
